@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.5rem 8rem;
+  &__navigation {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    &-link {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $darkGrayishBlue;
+      font-size: $bodyFont;
+      &:hover {
+        color: $darkViolet;
+      }
+    }
+  }
+}
+
+.nb {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: $darkViolet;
+  font-size: $bodyFont;
+  text-decoration: none;
+  border: 2px solid $darkViolet;
+  padding: 0.7rem;
+  &:hover {
+    background-color: $darkViolet;
+    color: $veryLightGray;
+  }
+}

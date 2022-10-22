@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: 60vh;
+  background-color: $darkViolet;
+
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__left {
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    hr {
+      width: 40%;
+    }
+    &__title {
+      font-size: 4rem;
+      line-height: 0.9;
+      color: $veryLightGray;
+    }
+
+    &__paragraph {
+      color: $veryLightGray;
+      font-size: 1rem;
+    }
+
+    &__button {
+      text-transform: uppercase;
+      display: block;
+      width: 40%;
+      border: none;
+      padding: 1rem 1.5rem;
+      background-color: transparent;
+      color: $veryLightGray;
+      border: 1.5px solid #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    padding: 5rem;
+
+    &__img {
+      height: 100%;
+      object-fit: cover;
+      background-position: center;
+      object-position: 50px 160px;
+    }
+  }
+}
