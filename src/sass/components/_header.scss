@@ -8,12 +8,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   &__left {
-    padding: 0 5rem;
+    padding: 1rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 
     hr {
       width: 40%;
@@ -40,15 +41,30 @@
       border: 1.5px solid #fff;
       cursor: pointer;
     }
+    &__svg {
+      position: absolute;
+      bottom: -28rem;
+      left: 0;
+    }
   }
 
   &__right {
     padding: 5rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+
+    &__svg {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 80%;
+    }
 
     &__img {
+      display: block;
       height: 100%;
       object-fit: cover;
-      background-position: center;
       object-position: 50px 160px;
     }
   }
