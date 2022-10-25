@@ -17,7 +17,7 @@
     gap: 1.5rem;
 
     hr {
-      width: 40%;
+      width: 10rem;
     }
     &__title {
       font-size: 4rem;
@@ -33,7 +33,7 @@
     &__button {
       text-transform: uppercase;
       display: block;
-      width: 40%;
+      width: 10rem;
       border: none;
       padding: 1rem 1.5rem;
       background-color: transparent;
@@ -43,7 +43,7 @@
     }
     &__svg {
       position: absolute;
-      bottom: -28rem;
+      bottom: -23rem;
       left: 0;
     }
   }

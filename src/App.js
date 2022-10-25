@@ -1,4 +1,5 @@
 import React from "react";
+import Different from "./components/Different";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Nav />
       <Header />
+      <Different />
     </div>
   );
 };
