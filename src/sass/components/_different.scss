@@ -1,5 +1,5 @@
 .diff {
-  padding: 15rem 5rem 0 5rem;
+  padding: 15rem 5rem 3rem 5rem;
 
   &__hr {
     width: 10rem;
@@ -18,7 +18,7 @@
     margin-bottom: 4rem;
 
     &__wrapper {
-      padding-right: 3rem;
+      margin-right: 4rem;
       display: flex;
       flex-direction: column;
     }
@@ -40,6 +40,8 @@
     }
   }
   &__rectangle {
+    position: relative;
+    overflow: hidden;
     background-color: $darkViolet;
     width: 80%;
     height: 10rem;
@@ -68,6 +70,13 @@
       color: $veryLightGray;
       border: 1.5px solid #fff;
       cursor: pointer;
+    }
+
+    &__svg {
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
   }
 }

@@ -20,8 +20,9 @@
       width: 10rem;
     }
     &__title {
-      font-size: 4rem;
+      font-size: 3.5rem;
       line-height: 0.9;
+      letter-spacing: 1.4px;
       color: $veryLightGray;
     }
 
@@ -58,7 +59,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      height: 80%;
+      height: 100%;
     }
 
     &__img {

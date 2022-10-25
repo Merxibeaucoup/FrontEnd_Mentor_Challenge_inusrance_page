@@ -3,15 +3,16 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 1.5rem 6.5rem;
+  padding: 1.5rem 5rem;
   &__navigation {
     list-style: none;
-
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    cursor: pointer;
 
     &-link {
+      cursor: pointer;
       text-transform: uppercase;
       text-decoration: none;
       color: $darkGrayishBlue;

@@ -1,0 +1,61 @@
+.footer {
+  background-color: $veryLightGray;
+  position: relative;
+
+  &__svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding: 3rem 5rem 1.2rem 5rem;
+    background-color: inherit;
+
+    &__logo {
+      margin-right: auto;
+    }
+    &__icons {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  &__hr {
+    width: 88%;
+    border: 0.2px solid $darkGrayishBlue;
+    margin: 0 auto;
+  }
+
+  &__bottom {
+    font-size: 1rem;
+    padding: 2rem 5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+    &__wrapper {
+      &:not(:last-child) {
+        margin-right: 13rem;
+      }
+    }
+
+    &__heading {
+      text-transform: uppercase;
+      color: $darkGrayishBlue;
+      margin-bottom: 2rem;
+    }
+    &__ul {
+      list-style: none;
+      &__list {
+        text-transform: uppercase;
+        margin-bottom: 0.8rem;
+
+        color: $darkViolet;
+      }
+    }
+  }
+}
