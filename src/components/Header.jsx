@@ -11,7 +11,9 @@ const Header = () => {
           expertise and technology to help you find the plan that’s right for
           you. Ensure you and your loved ones are protected.
         </p>
-        <button className="header__left__button">view plans</button>
+        <a href="#/" className="header__left__button">
+          view plans
+        </a>
         <svg
           className="header__left__svg"
           xmlns="http://www.w3.org/2000/svg"
@@ -44,6 +46,7 @@ const Header = () => {
             <path d="M401.225 103.406c-26.718-8.36-54.191-22.305-82.318 3.165-28.127 25.47-45.81 47.78-34.39 76.649 11.419 28.868 58.03 10.887 71.574 36.688 13.544 25.8-16.214 49.217-3.385 72.18 12.83 22.963 22.694 37.68 63.923 23.08 41.229-14.6 37.428-51.75 68.78-73.505 31.353-21.755 65.275-54.323 18.723-112.435-46.553-58.112-76.188-17.462-102.907-25.822z" />
           </g>
         </svg>
+
         <img
           src="images/image-intro-desktop.jpg"
           alt="heading"

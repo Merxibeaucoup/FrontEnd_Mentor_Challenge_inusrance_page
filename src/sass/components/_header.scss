@@ -11,7 +11,7 @@
   position: relative;
 
   &__left {
-    padding: 1rem 5rem;
+    padding: 1rem 1rem 0 5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -19,6 +19,7 @@
     hr {
       width: 10rem;
     }
+
     &__title {
       font-size: 3.5rem;
       line-height: 0.9;
@@ -34,6 +35,9 @@
     &__button {
       text-transform: uppercase;
       display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.1rem;
       width: 10rem;
       border: none;
       padding: 1rem 1.5rem;
@@ -41,6 +45,10 @@
       color: $veryLightGray;
       border: 1.5px solid #fff;
       cursor: pointer;
+      &:hover {
+        background-color: $veryLightGray;
+        color: $darkViolet;
+      }
     }
     &__svg {
       position: absolute;
@@ -50,9 +58,7 @@
   }
 
   &__right {
-    padding: 5rem;
-    padding-left: 2rem;
-    padding-right: 5rem;
+    padding: 0 5rem 0 0;
 
     &__svg {
       display: inline-block;
@@ -65,6 +71,7 @@
     &__img {
       display: block;
       height: 100%;
+
       object-fit: cover;
       object-position: 50px 160px;
     }

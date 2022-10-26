@@ -7,9 +7,13 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <div>
-      <Nav />
-      <Header />
-      <Different />
+      <nav>
+        <Nav />
+      </nav>
+      <main>
+        <Header />
+        <Different />
+      </main>
       <Footer />
     </div>
   );

@@ -29,7 +29,9 @@ const Nav = () => {
             </a>
           </li>
           <li className="nav__navigation-list">
-            <button className="nb">view plans</button>
+            <a href="#/" className="nb">
+              view plans
+            </a>
           </li>
         </ul>
       </div>

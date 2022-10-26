@@ -17,6 +17,7 @@
 
     &__logo {
       margin-right: auto;
+      cursor: pointer;
     }
     &__icons {
       display: flex;
@@ -24,6 +25,9 @@
       gap: 1rem;
       &-icon {
         cursor: pointer;
+        &:hover {
+          fill: $darkViolet;
+        }
       }
     }
   }
@@ -58,8 +62,13 @@
         text-transform: uppercase;
         margin-bottom: 0.8rem;
         cursor: pointer;
-
         color: $darkViolet;
+
+        p {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
